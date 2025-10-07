@@ -9,13 +9,10 @@
 ## Задание A — `arrays.py`
 **Файл:** `01_arrays.py`  
 **Реализуйте функции:** 
-
 1. `min_max(nums: list[float | int]) -> tuple[float | int, float | int]`  
    Вернуть кортеж `(минимум, максимум)`. Если список пуст — `ValueError`.
-
 2. `unique_sorted(nums: list[float | int]) -> list[float | int]`  
    Вернуть **отсортированный** список **уникальных** значений (по возрастанию).
-
 3. `flatten(mat: list[list | tuple]) -> list`  
    «Расплющить» список списков/кортежей в один список по строкам (row-major).
    Если встретилась строка/элемент, который не является списком/кортежем — `TypeError`.
@@ -27,13 +24,11 @@
 - `[-5, -2, -9]` → `(-9, -2)`
 - `[]` → `ValueError`
 - `[1.5, 2, 2.0, -3.1]` → `(-3.1, 2)`
-
 **unique_sorted**
 - `[3, 1, 2, 1, 3]` → `[1, 2, 3]`
 - `[]` → `[]`
 - `[-1, -1, 0, 2, 2]` → `[-1, 0, 2]`
 - `[1.0, 1, 2.5, 2.5, 0]` → `[0, 1.0, 2.5]` *(допускаем смешение int/float)*
-
 **flatten**
 - `[[1, 2], [3, 4]]` → `[1, 2, 3, 4]`
 - `[[1, 2], (3, 4, 5)]` → `[1, 2, 3, 4, 5]`
@@ -46,10 +41,8 @@ def min_max(nums):                                          #1
     if len(nums) == 0:
         raise ValueError('Список пуст')
     return (min(nums), max(nums))
-
 def unique_sorted(nums):                                    #2
     return sorted(set(nums))
-
 
 def flatten(mat):                                           #3
     result = []
@@ -59,7 +52,7 @@ def flatten(mat):                                           #3
         result.extend(row)
     return result
 ```
-    
+
 **Скриншот:**  
 ![Задание 1](../../images/lab02/1.png)
 
@@ -68,14 +61,11 @@ def flatten(mat):                                           #3
 ## Задание B — `matrix.py`
 **Файл:** `02_matrix.py`  
 **Реализуйте функции:**
-
 1. `transpose(mat: list[list[float | int]]) -> list[list]`  
    Поменять строки и столбцы местами. Пустая матрица `[]` → `[]`.  
    Если матрица «рваная» (строки разной длины) — `ValueError`.
-
 2. `row_sums(mat: list[list[float | int]]) -> list[float]`  
    Сумма по каждой строке. Требуется прямоугольность (см. выше).
-
 3. `col_sums(mat: list[list[float | int]]) -> list[float]`  
    Сумма по каждому столбцу. Требуется прямоугольность.
 
@@ -86,13 +76,11 @@ def flatten(mat):                                           #3
 - `[[1, 2], [3, 4]]` → `[[1, 3], [2, 4]]`
 - `[]` → `[]`
 - `[[1, 2], [3]]` → `ValueError` (рваная матрица)
-
 **row_sums**
 - `[[1, 2, 3], [4, 5, 6]]` → `[6, 15]`
 - `[[-1, 1], [10, -10]]` → `[0, 0]`
 - `[[0, 0], [0, 0]]` → `[0, 0]`
 - `[[1, 2], [3]]` → `ValueError` (рваная)
-
 **col_sums**
 - `[[1, 2, 3], [4, 5, 6]]` → `[5, 7, 9]`
 - `[[-1, 1], [10, -10]]` → `[9, -9]`
@@ -115,7 +103,6 @@ def transpose(mat):                                         #1
             new_row.append(mat[i][j])
         result.append(new_row)
     return result
-
 def row_sums(mat):                                          #2
     if len(mat) == 0:
         return []
@@ -130,7 +117,6 @@ def row_sums(mat):                                          #2
             total += x
         sums.append(total)
     return sums
-
 def col_sums(mat):                                          #3
     if len(mat) == 0:
         return []
@@ -153,10 +139,8 @@ def col_sums(mat):                                          #3
 ## Задание C — `tuples.py`
 **Файл:** `03_tuples.py`  
 **Работаем с «записями» как с кортежами** 
-
 1. Определите тип записи студента как кортеж:  
    `(fio: str, group: str, gpa: float)`
-
 2. Реализуйте `format_record(rec: tuple[str, str, float]) -> str`  
    Вернуть строку вида:  
    `Иванов И.И., гр. BIVT-25, GPA 4.60`  
