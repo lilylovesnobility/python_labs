@@ -41,7 +41,8 @@
 - `[[1, 2], "ab"]` → `TypeError` *(«строка не строка строк матрицы»)*
 
 ### Код:
-`def min_max(nums):                                          #1
+```
+def min_max(nums):                                          #1
     if len(nums) == 0:
         raise ValueError('Список пуст')
     return (min(nums), max(nums))
@@ -56,7 +57,8 @@ def flatten(mat):                                           #3
         if type(row) != list and type(row) != tuple:
             raise TypeError('Строка/элемент не является списком/кортежем')
         result.extend(row)
-    return result`
+    return result
+```
     
 **Скриншот:**  
 ![Задание 1](../../images/lab02/1.png)
@@ -98,7 +100,8 @@ def flatten(mat):                                           #3
 - `[[1, 2], [3]]` → `ValueError` (рваная)
 
 ### Код:
-`def transpose(mat):                                         #1
+```
+def transpose(mat):                                         #1
     if len(mat) == 0:
         return []
     cols = len(mat[0])
@@ -139,7 +142,8 @@ def col_sums(mat):                                          #3
     for row in mat:
         for j in range(cols):
             sums[j] += row[j]
-    return sums`
+    return sums
+```
     
 **Скриншот:**  
 ![Задание 2](../../images/lab02/2.png)
@@ -169,7 +173,8 @@ def col_sums(mat):                                          #3
 - Некорректные записи (пустое ФИО, пустая группа, неверный тип GPA) → `ValueError`/`TypeError` по усмотрению (описать в докстринге).
 
 ### Код:
-`def format_record(rec):                                     #1
+```
+def format_record(rec):                                     #1
     if type(rec) is not tuple or len(rec) != 3:
         raise ValueError('Ожидается кортеж из 3 элементов')
     fio = rec[0]
@@ -189,7 +194,8 @@ def col_sums(mat):                                          #3
     initials = ''
     for name in parts[1:3]:
         initials += name[0].upper() + '.'
-    return f'{surname} {initials}, гр. {group}, GPA {gpa:.2f}'`
+    return f'{surname} {initials}, гр. {group}, GPA {gpa:.2f}'
+```
     
 **Скриншот:**  
 ![Задание 3](../../images/lab02/3.png)
