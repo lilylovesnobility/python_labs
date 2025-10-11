@@ -3,11 +3,11 @@
 1. **Ввод/вывод и форматирование** — ✅
    - Код: `src/lab01/`
    - Скриншоты: `images/lab01/`
-   - README: [src/lab01/README.md/](src/lab01/README.md/) 
+   - README: [src/lab01/README.md/](src/lab02/README.md/) 
 2. **Коллекции и матрицы (list/tuple/set/dict)** — ❓
    - Код: `src/lab01/`
    - Скриншоты: `images/lab01/`
-   - README: [src/lab02/README.md/](src/lab01/README.md/) 
+   - README: [src/lab02/README.md/](src/lab03/README.md/) 
 3. **Тексты и частоты слов (словарь/множество)** — ❓
    - Код: `src/lab01/`
    - Скриншоты: `images/lab01/`
