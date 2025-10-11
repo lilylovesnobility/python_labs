@@ -13,4 +13,4 @@
 5. **JSON и конвертации (JSON↔CSV, CSV→XLSX): Техническое задание** — ✖️
 6. **CLI‑утилиты с argparse (cat/grep‑lite + конвертеры): Техническое задание** — ✖️
 
-![Gif](for readme/zzz.gif)
+![Gif](for_readme/zzz.gif)
