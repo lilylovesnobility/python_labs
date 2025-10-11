@@ -33,7 +33,7 @@ def normalize(text: str, *, casefold: bool = True, yo2e: bool = True):          
     s = s.replace('\t', ' ').replace('\r', ' ').replace('\n', ' ')
     s = ' '.join(s.split())
     return s
-def tokenize(text):                                                                 #2
+def tokenize(text):                                                                  #2
     tokens = []
     word = ''
     for ch in text:
@@ -48,7 +48,7 @@ def tokenize(text):                                                             
     if word:
         tokens.append(word)
     return tokens
-def count_freq(tokens):                                                             #3
+def count_freq(tokens):                                                              #3
     freq = {}
     for word in tokens:
         freq[word] = freq.get(word, 0) + 1
@@ -68,7 +68,7 @@ assert normalize("Hello\r\nWorld") == "hello world"
 assert normalize("  двойные   пробелы  ") == "двойные пробелы"
 
 print("normalize успешно!")
-assert tokenize("привет, мир!") == ["привет", "мир"]                               #2
+assert tokenize("привет, мир!") == ["привет", "мир"]                                #2
 assert tokenize("по-настоящему круто") == ["по-настоящему", "круто"]
 assert tokenize("2025 год") == ["2025", "год"]
 assert tokenize("hello,world!!!") == ["hello", "world"]
