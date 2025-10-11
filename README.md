@@ -3,7 +3,7 @@
 1. **Ввод/вывод и форматирование** — ✅
    - Код: `src/lab01/`
    - Скриншоты: `images/lab01/`
-   - [README](src/lab02/README.md/) 
+   - *[README](src/lab02/README.md/)*
 2. **Коллекции и матрицы (list/tuple/set/dict)** — ❓
    - Код: `src/lab01/`
    - Скриншоты: `images/lab01/`
@@ -15,4 +15,5 @@
 4. **Файлы: TXT/CSV и отчёты по текстовой статистике** — ✖️
 5. **JSON и конвертации (JSON↔CSV, CSV→XLSX): Техническое задание** — ✖️
 6. **CLI‑утилиты с argparse (cat/grep‑lite + конвертеры): Техническое задание** — ✖️
+
 ![Gif](for_readme/zzz.gif)
