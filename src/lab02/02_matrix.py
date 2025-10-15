@@ -20,13 +20,7 @@ def row_sums(mat):                                          #2
     for row in mat:
         if len(row) != cols:
             raise ValueError('Строки разной длины')
-    sums = []
-    for row in mat:
-        total = 0
-        for x in row:
-            total += x
-        sums.append(total)
-    return sums
+    return [sum(row) for row in mat]
 
 def col_sums(mat):                                          #3
     if len(mat) == 0:
