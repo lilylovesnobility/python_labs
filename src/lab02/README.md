@@ -159,9 +159,7 @@ def col_sums(mat):                                          #3
 def format_record(rec):                                     #1
     if type(rec) is not tuple or len(rec) != 3:
         raise ValueError('Ожидается кортеж из 3 элементов')
-    fio = rec[0]
-    group = rec[1]
-    gpa = rec[2]
+    fio, group, gpa = rec
     if type(gpa) not in (int, float):
         raise TypeError('GPA введён неверно')
     if type(fio) is not str or len(fio.strip()) == 0:
