@@ -1,8 +1,8 @@
 # ЛР3 — Файлы: TXT/CSV и отчёты по текстовой статистике
 
 ## Структура
-- Код:*[io_txt_csv.py](src/lab04/io_txt_csv.py/)*
-      *[text_report.py](src/lab04/text_report.py/)*
+- Код:*[Задание А](src/lab04/io_txt_csv.py/)*
+      *[Задание В](src/lab04/text_report.py/)*
 - Скриншоты: `images/lab04/`
 
 ---
