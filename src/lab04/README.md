@@ -2,7 +2,8 @@
 
 ## Структура
 - Код:*[Задание А](io_txt_csv.py/)*
-      *[Задание В](src/lab04/text_report.py/)*
+- 
+      *[Задание В](text_report.py/)*
 - Скриншоты: `images/lab04/`
 
 ---
