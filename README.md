@@ -13,7 +13,10 @@
    - Скриншоты: `images/lab03/`
    - *[README](src/lab03/README.md/)*
 4. **Файлы: TXT/CSV и отчёты по текстовой статистике** — ❓️
-5. **JSON и конвертации (JSON↔CSV, CSV→XLSX): Техническое задание** — ✖️
-6. **CLI‑утилиты с argparse (cat/grep‑lite + конвертеры): Техническое задание** — ✖️
+   - Код: `src/lab04/`
+   - Скриншоты: `images/lab04/`
+   - *[README](src/lab04/README.md/)*
+6. **JSON и конвертации (JSON↔CSV, CSV→XLSX): Техническое задание** — ✖️
+7. **CLI‑утилиты с argparse (cat/grep‑lite + конвертеры): Техническое задание** — ✖️
 
 ![Gif](for_readme/zzz.gif)
