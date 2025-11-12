@@ -20,6 +20,9 @@
    - Код: `src/lab05/`
    - Скриншоты: `images/lab05/`
    - *[README](src/lab05/README.md/)*
-6. **CLI‑утилиты с argparse (cat/grep‑lite + конвертеры): Техническое задание** — ✖️
+6. **CLI‑утилиты с argparse (cat/grep‑lite + конвертеры): Техническое задание** — ❓️
+   - Код: `src/lab06/`
+   - Скриншоты: `images/lab06/`
+   - *[README](src/lab06/README.md/)*
 
 ![Gif](for_readme/zzz.gif)
