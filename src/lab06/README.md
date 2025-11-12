@@ -108,18 +108,18 @@ if __name__ == "__main__":
 ---
 
 ### Проверка:
-`cat --input data/samples/people.csv -n → вывод строк с номерами`
+**cat --input data/samples/people.csv -n → вывод строк с номерами**
 ![Задание 1](../../images/lab06/3.png)
 
-`stats --input data/samples/people.txt --top 5 → вывод топ‑слов`
+**stats --input data/samples/people.txt --top 5 → вывод топ‑слов**
 ![Задание 1](../../images/lab06/4.png)
 
-`--help`
+**--help**
 
 ![Задание 1](../../images/lab06/1.png)
 ![Задание 2](../../images/lab06/2.png)
 
-`вывод ошибок`
+**вывод ошибок**
 ![Задание 1](../../images/lab06/5.png)
 ![Задание 1](../../images/lab06/6.png)
 ![Задание 2](../../images/lab06/7.png)
