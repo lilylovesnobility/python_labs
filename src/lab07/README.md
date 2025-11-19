@@ -163,5 +163,7 @@ def test_csv_to_json_raises_file_not_found_error():
 ## Задание С — стиль кода (`black`)
 **Перед сдачей ЛР:**
  - `отформатировать проект`
+
 ![Задание 3](../../images/lab07/2.png)
 ---
+
