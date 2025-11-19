@@ -24,5 +24,9 @@
    - Код: `src/lab06/`
    - Скриншоты: `images/lab06/`
    - *[README](src/lab06/README.md/)*
+7. **Тестирование: pytest + стиль (black)** — ❓ ️️
+   - Код: `src/lab07/`
+   - Скриншоты: `images/lab07/`
+   - *[README](src/lab07/README.md/)*
 
 ![Gif](for_readme/zzz.gif)
