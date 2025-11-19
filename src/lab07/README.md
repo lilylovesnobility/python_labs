@@ -1,8 +1,7 @@
 # ЛР7 — Тестирование: pytest + стиль (black)
 
 ## Структура
-- Код:*[Задание А](tests/test_text.py/)*
-      *[Задание В](tests/test_json_csv.py/)*
+- Код: `tests/`
 - Скриншоты: `images/lab07/`
 
 ---
@@ -166,5 +165,6 @@ def test_csv_to_json_raises_file_not_found_error():
 
 ![Задание 3](../../images/lab07/2.png)
 ---
+
 
 
