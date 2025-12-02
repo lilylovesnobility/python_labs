@@ -24,9 +24,21 @@
    - Код: `src/lab06/`
    - Скриншоты: `images/lab06/`
    - *[README](src/lab06/README.md/)*
-7. **Тестирование: pytest + стиль (black)** — ❓ ️️
+7. **Тестирование: pytest + стиль (black)** — ✅️ ️️
    - Код: `src/lab07/`
    - Скриншоты: `images/lab07/`
    - *[README](src/lab07/README.md/)*
+8. **ООП в Python: @dataclass Student, методы и сериализация** — ❓ ️️
+   - Код: `src/lab8/`
+   - Скриншоты: `images/lab08/`
+   - *[README](src/lab08/README.md/)*
+7. **«База данных» на CSV: класс Group, CRUD-операции и CLI** — ❓ ️️
+   - Код: `src/lab09/`
+   - Скриншоты: `images/lab09/`
+   - *[README](src/lab09/README.md/)*
+7. **Структуры данных: Stack, Queue, Linked List и бенчмарки** — ❓ ️️
+   - Код: `src/lab10/`
+   - Скриншоты: `images/lab10/`
+   - *[README](src/lab10/README.md/)*
 
 ![Gif](for_readme/zzz.gif)
