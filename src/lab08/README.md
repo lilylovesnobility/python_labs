@@ -1,4 +1,4 @@
-# ЛР7 — ООП в Python: `@dataclass Student`, методы и сериализация
+# ЛР8 – ООП в Python: `@dataclass Student`, методы и сериализация
 
 ## Задание A — Реализовать класс `Student`
 **Файл:** `models.py`  
